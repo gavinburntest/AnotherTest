@@ -31,8 +31,8 @@ jobs:
           closedstate: 'Done'
           propenstate: 'Ready'
           inprogressstate: 'In Progress' 
-          ghrepo_owner: 'Contoso'
-          ghrepo: 'Contoso-Microservice'
+          ghrepo_owner: 'gavinburn'
+          ghrepo: 'AnotherTest'
           pull_number: ${{github.event.number}} 
           branch_name: ${{ github.ref }}
 
